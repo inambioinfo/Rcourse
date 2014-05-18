@@ -73,9 +73,8 @@ mean.std.data <- mean.std.data[!grepl('meanFreq',mean.std.data$features)]
 
 # Create a second, independent tidy data set with the average of 
 #  each variable for each activity and each subject.
-library(plyr)
-
-tidy.data <- ddply(mean.std.data, .(features,activities,subjects), summarize, mean=mean(values))
+tidy.data <- mean.std.data[,mean(values),by=list(features,activities,subjects)]
+setnames(tidy.data,'V1','mean')
 
 # Remove unnecessary data
 rm(data, mean.std.data)
