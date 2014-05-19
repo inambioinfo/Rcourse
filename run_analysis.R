@@ -27,7 +27,6 @@ test.x <- data.table(test.x); train.x <- data.table(train.x); features <- data.t
 # Change feature names to human readable
 V2 <- gsub('\\(\\)','',features$features)
 V2 <- gsub('(^|\\()t','TimeOf',V2)
-V2 <- gsub('\\(t','TimeOf',V2)
 V2 <- gsub('angle','angle.between.',V2)
 V2 <- gsub('\\(','',V2)
 V2 <- gsub('\\)','',V2)
