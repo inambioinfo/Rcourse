@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This is my work for the project of the Coursera course "Getting and Cleaning Data" (https://class.coursera.org/getdata-003)
+This is my work for the project of the Coursera course "Getting and Cleaning Data" [link](https://class.coursera.org/getdata-003)
 
 ## Introduction
 
@@ -24,12 +24,12 @@ In the R script called run_analysis.R that does the following.
 
 ## Testing environment:
 
-Mac OS X 10.9.2
-Firefox 29.0.1 (for downloading the data)
-Archive Utility v10.9.1 (for unzipping the data)
-RStudio version: 0.98.507
-R version: 3.1.0 GUI 1.64 Mavericks build (6734)
-packages: data.table V1.9.2
+* Mac OS X 10.9.2
+* Firefox 29.0.1 (for downloading the data)
+* Archive Utility v10.9.1 (for unzipping the data)
+* RStudio version: 0.98.507
+* R version: 3.1.0 GUI 1.64 Mavericks build (6734)
+* packages: data.table V1.9.2
 
 ## How to use the script
 
