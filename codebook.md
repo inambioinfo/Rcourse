@@ -2,12 +2,12 @@
 
 ## Testing environment:
 
-Mac OS X 10.9.2
-Firefox 29.0.1 (for downloading the data)
-Archive Utility v10.9.1 (for unzipping the data)
-RStudio version: 0.98.507
-R version: 3.1.0 GUI 1.64 Mavericks build (6734)
-packages: data.table V1.9.2
+* Mac OS X 10.9.2
+* Firefox 29.0.1 (for downloading the data)
+* Archive Utility v10.9.1 (for unzipping the data)
+* RStudio version: 0.98.507
+* R version: 3.1.0 GUI 1.64 Mavericks build (6734)
+* packages: data.table V1.9.2
 
 
 
