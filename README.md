@@ -40,6 +40,6 @@ In the R script called run_analysis.R that does the following.
 
 * Your data will be saved as "tidyData.csv" under the R working directory.
 
-It does not necessarily do the jobs in the order as listed. The reason is, in real life, I possibly need the data in another form. This is why I merge and change variable names before I trim the data. But in the end, it does its job, I hope...
+It does not necessarily do the jobs in the order as listed. The reason is, in real life, I possibly need the data in another form. This is why I merge and change variable names before I trim the data. This is also why I wanted to add 'group' labels to the train and test data sets, which seems unnecessary for this project. But in the end, it does its job, I hope...
 
 **NOTE**: I did not include the data in the "Inertial Signals" folders under "test" and "train" folders. Refer to this [link](https://class.coursera.org/getdata-003/forum/thread?thread_id=30) (alive as for 2014-05-18)
