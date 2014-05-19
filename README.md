@@ -33,7 +33,7 @@ In the R script called run_analysis.R that does the following.
 
 ## How to use the script
 
-* Download the data to the R working directory, from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip. (I used "Firefox 29.0.1" (2014-05-15 14:51:29 IST)).
+* Download the data to the R working directory, from [link](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip). (I used "Firefox 29.0.1" (2014-05-15 14:51:29 IST)).
 * The zip file is unzipped into folder "UCI HAR Dataset" (I used "Archive Utility v10.9.1").
 
 * In RStudio, run the "run_analysis.R".

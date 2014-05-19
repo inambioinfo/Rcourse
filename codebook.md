@@ -44,20 +44,13 @@ These signals were used to estimate variables of the feature vector for each pat
 * FourierTransformedBodyGyroMag
 * FourierTransformedBodyGyroJerkMag
 
-**NOTE** In the original file, some features have double 'Body' in their names, such as 'FourierTransformedBodyBodyGyroJerkMag-std'. The script does not fix this possible error.
+**NOTE:** In the original file, some features have double 'Body' in their names, such as 'FourierTransformedBodyBodyGyroJerkMag-std'. The script does not fix this possible error.
 
 The set of variables that were estimated from these signals are: 
 
 * mean: Mean value
 * std: Standard deviation
 
-
-The complete list of variables of each feature vector is available in 'features.txt'
-    * 'f..' has been expanded to 'FourierTransformed..';
-    * 't..' has been expanded to 'TimeOf..';
-    * parentheses have been removed;
-    * 'angle(variableA,variableB)' has been changed to 'angle.between.variableA.and.variableB'
-    * Only features with 'mean' and 'std' are retained for further data processing. Else are discarded.
     
 ### activities: 
 
